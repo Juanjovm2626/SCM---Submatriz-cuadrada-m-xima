@@ -18,7 +18,4 @@ def largestsquare_bruteforce(matriz):
                 if not ok : break
                 ans = max(ans, k)
     
-    return print(f"La submatriz mas grande es de {ans} X {ans}")
-
-
-largestsquare_bruteforce([[0,0,0],[0,0,1],[1,0,0]])
+    return ans
